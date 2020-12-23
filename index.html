@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Bootstrap 4 CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <!-- Custome CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+
+        <title>JS : Number Guesser</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="card text-center mt-5 p-3">
+                        <h1 id="heading" class="display-4 p-3">Number Guesser</h1>
+                        <div id="game">
+                            <p>Guess a number between <span id="min-num"></span> and <span id="max-num"></span></p>
+
+                            <div class="form-group">
+                                <input type="number" class="form-control" id="guess-input" placeholder="Enter youe guess..." />
+                            </div>
+
+                            <div class="form-group">
+                                <input type="submit" value="Submit" id="guess-btn" class="btn btn-dark btn-block" />
+                            </div>
+
+                            <p id="message"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jquery 3.5.1 -->
+        <script src="js/jquery-3.5.1.js"></script>
+        <!-- Bootstrap bundle -->
+        <script src="js/bootstrap.bundle.js"></script>
+        <!-- custom js -->
+        <script src="js/app.js"></script>
+    </body>
+</html>
